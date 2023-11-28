@@ -92,7 +92,7 @@ class LCD_1602_RUS : public LCD_LIB {
     }
 #else
     void init() {
-      LCD_LIB::begin();
+      LCD_LIB::init();
     }
 #endif
 #elif defined(ARDUINO_ESP8266_ESP01)  //Для ESP8266-01
